@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Baumans&family=Be+Vietnam+Pro:wght@300&family=Bebas+Neue&family=Dancing+Script:wght@500&family=Inter:wght@400;600&family=Kumbh+Sans:wght@400;700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Lilita+One&family=Montserrat:ital,wght@0,740;1,740&family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Overpass:wght@580&family=Playfair+Display:ital,wght@0,437;1,437&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pridi:wght@200;300;400;500;600;700&family=Roboto+Mono:ital,wght@0,586;1,586&family=Rubik+Gemstones&family=Sevillana&family=Tenali+Ramakrishna&family=Tillana:wght@500;600&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -11,15 +13,19 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Libre Franklin", sans-serif;
 }
 button {
   transform: translateZ(500px);
   box-shadow: 1px 2px 10px 5px #d4e3ff;
   transition: all 0.3s ease-in-out;
 }
-svg{
-    fill: blue;
+svg {
+  fill: blue;
 }
-svg:hover{
-    fill: red;
+svg:hover {
+  fill: red;
+}
+::placeholder {
+  color: #dadde7;
 }
