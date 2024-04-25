@@ -39,7 +39,7 @@ export default function Page() {
       <p className="text-[#2f3334] text-center mt-[0.4rem] mb-[1.8rem]">
         Subscribe and get notified
       </p>
-      <div className="flex flex-row justify-center items-center gap-[1rem] sm:flex-nowrap flex-wrap ">
+      <div className="flex flex-row justify-center items-start gap-[1rem] sm:flex-nowrap flex-wrap ">
         <div className="flex flex-col justify-start w-full sm:w-[25rem]">
         <input
           type="text"
@@ -48,7 +48,7 @@ export default function Page() {
           value={inputVal}
           onChange={getVal}
         />
-        <p className={`text-[#d39ba0] italic pl-[3rem] ${show?"block":"hidden"}`}>Please provide a valid email</p>
+        <p className={`text-[#f24f5d] italic pl-[1.5rem] ${show?"block":"hidden"}`}>Please provide a valid email</p>
         </div>
         <button
           className="bg-[#4d7bf3] text-[#dcf3ff] sm:w-[10rem] w-full h-[3rem] rounded-[2rem]"
@@ -59,22 +59,22 @@ export default function Page() {
       </div>
       <img src={img} alt="img" className="md:w-[46%] w-[100%] mt-[4.5rem]" />
       <div className="flex justify-center items-center gap-[1.5rem] mt-[6rem] mb-[1.8rem]">
-        <div className="border-solid border-[2px] p-[0.5rem] rounded-full w-[2rem] h-[2rem] flex justify-center items-center hover:bg-[#4a7beb] hover:cursor-pointer hover:text-[#ffffff]">
+        <div className="border-solid border-[2px] p-[0.5rem] rounded-full w-[2rem] h-[2rem] flex justify-center items-center hover:bg-[#4a7beb] hover:cursor-pointer hover:text-[#ffffff] text-[#4a7beb]">
           <FontAwesomeIcon
             icon={faFacebookF}
-            className="text-[#4a7beb] hover:cursor-pointer hover:text-[#ffffff] w-[2rem]   transition-all ease-in-out duration-300"
+            className=" w-[2rem]   transition-all ease-in-out duration-300"
           />
         </div>
-        <div className="border-solid border-[2px] p-[0.5rem] rounded-full w-[2rem] h-[2rem] flex justify-center items-center hover:bg-[#4a7beb] hover:cursor-pointer hover:text-[#ffffff]">
+        <div className="border-solid border-[2px] p-[0.5rem] rounded-full w-[2rem] h-[2rem] flex justify-center items-center hover:bg-[#4a7beb] hover:cursor-pointer hover:text-[#ffffff] text-[#4a7beb]">
           <FontAwesomeIcon
             icon={faTwitter}
-            className="text-[#4a7beb] hover:cursor-pointer hover:text-[#ffffff] w-[2rem]   transition-all ease-in-out duration-300"
+            className=" w-[2rem]   transition-all ease-in-out duration-300"
           />
         </div>
-        <div className="border-solid border-[2px] p-[0.5rem] rounded-full w-[2rem] h-[2rem] flex justify-center items-center hover:bg-[#4a7beb] hover:cursor-pointer hover:text-[#ffffff]">
+        <div className="border-solid border-[2px] p-[0.5rem] rounded-full w-[2rem] h-[2rem] flex justify-center items-center hover:bg-[#4a7beb] hover:cursor-pointer hover:text-[#ffffff] text-[#4a7beb]">
           <FontAwesomeIcon
             icon={faInstagram}
-            className="text-[#4a7beb] hover:cursor-pointer hover:text-[#ffffff] w-[2rem]   transition-all ease-in-out duration-300"
+            className=" w-[2rem]   transition-all ease-in-out duration-300"
           />
         </div>
       </div>
